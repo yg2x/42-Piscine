@@ -5,8 +5,11 @@ Il y'a un executable ' a.exe ' qui est le code ft_print_alphabet.c compiler avec
 #include <unistd.h>
 
 void ft_print_alphabet(void) {
-    for (char lettreA = 'a'; lettreA <= 'z'; lettreA++) {
+    char lettreA = 'a';
+
+    while (lettreA <= 'z') {
         write(1, &lettreA, 1);
+        lettreA++;
     }
 }
 
