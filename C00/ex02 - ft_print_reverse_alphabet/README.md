@@ -1,4 +1,4 @@
-Comme l'exercice ex02, mais l'alphabet est inverser
+Comme l'exercice ex02, mais l'alphabet est inversé
 
 ```c
 #include <unistd.h>
