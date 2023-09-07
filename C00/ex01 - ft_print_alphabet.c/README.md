@@ -4,7 +4,7 @@ Il y'a un executable ' a.exe ' qui est le code ft_print_alphabet.c compiler avec
 ```c
 #include <unistd.h>
 
-void ft_print_alphabet() {
+void ft_print_alphabet(void) {
     for (char lettreA = 'a'; lettreA <= 'z'; lettreA++) {
         write(1, &lettreA, 1);
     }
