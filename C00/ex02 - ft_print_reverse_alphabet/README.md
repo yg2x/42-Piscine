@@ -4,8 +4,11 @@ Comme l'exercice ex02, mais l'alphabet est inversé
 #include <unistd.h>
 
 void ft_print_reverse_alphabet(void) {
-    for (char lettreZ = 'z'; lettreZ >= 'a'; lettreZ--) {
+    char lettreZ = 'z';
+
+    while (lettreZ >= 'a') {
         write(1, &lettreZ, 1);
+        lettreZ--;
     }
 }
 
