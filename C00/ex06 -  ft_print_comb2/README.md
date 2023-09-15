@@ -1,6 +1,18 @@
 Ce code génère et affiche toutes les combinaisons uniques de deux nombres entre 0 et 99, dans l'ordre croissant, séparées par une virgule et un espace. Il exclut les combinaisons répétées et évite d'ajouter une virgule supplémentaire à la fin.
 
 ```c
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ruda-sil <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/15 10:31:23 by ruda-sil          #+#    #+#             */
+/*   Updated: 2023/09/15 10:34:38 by ruda-sil         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 void ft_print_comb2(void) {
